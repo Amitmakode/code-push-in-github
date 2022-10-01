@@ -1,0 +1,74 @@
+Microsoft Windows [Version 10.0.19043.2006]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\admin>cd
+C:\Users\admin	----------------
+
+C:\Users\admin>cd C:\Users\admin\Downloads\webimagescrapper	-------------------Enter
+
+C:\Users\admin\Downloads\webimagescrapper>dir	-------------------Enter
+ Volume in drive C has no label.
+ Volume Serial Number is 8833-B244
+
+ Directory of C:\Users\admin\Downloads\webimagescrapper
+
+10/01/2022  06:33 PM    <DIR>          .
+10/01/2022  06:33 PM    <DIR>          ..
+10/01/2022  06:33 PM    <DIR>          .idea
+01/16/2021  07:30 AM        11,459,768 chromedriver
+09/23/2022  09:20 PM        12,095,488 chromedriver.exe
+10/01/2022  05:43 PM    <DIR>          images
+10/16/2021  12:36 PM                21 Procfile
+09/28/2022  07:25 PM               163 requirements.txt
+09/28/2022  08:59 PM                10 runtime.txt
+09/28/2022  08:50 PM             3,908 scraper.py
+               6 File(s)     23,559,358 bytes
+               4 Dir(s)  48,102,481,920 bytes free
+
+C:\Users\admin\Downloads\webimagescrapper>git init	------------------------- Enter
+Initialized empty Git repository in C:/Users/admin/Downloads/webimagescrapper/.git/
+
+C:\Users\admin\Downloads\webimagescrapper>git add .	------------------------------ Enter
+warning: in the working copy of '.idea/inspectionProfiles/Project_Default.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.idea/inspectionProfiles/profiles_settings.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'scraper.py', LF will be replaced by CRLF the next time Git touches it
+
+C:\Users\admin\Downloads\webimagescrapper>git commit -m "first commit"	---------------------------- Enter
+[master (root-commit) a5bad94] first commit
+ 12 files changed, 185 insertions(+)
+ create mode 100644 .idea/.gitignore
+ create mode 100644 .idea/inspectionProfiles/Project_Default.xml
+ create mode 100644 .idea/inspectionProfiles/profiles_settings.xml
+ create mode 100644 .idea/misc.xml
+ create mode 100644 .idea/modules.xml
+ create mode 100644 .idea/webimagescrapper.iml
+ create mode 100644 Procfile
+ create mode 100644 chromedriver
+ create mode 100644 chromedriver.exe
+ create mode 100644 requirements.txt
+ create mode 100644 runtime.txt
+ create mode 100644 scraper.py
+
+C:\Users\admin\Downloads\webimagescrapper>git branch -M main	 ----------------------------- Enter
+
+C:\Users\admin\Downloads\webimagescrapper>git remote add origin https://github.com/Amitmakode/image.git	------------------------------ Enter
+
+C:\Users\admin\Downloads\webimagescrapper>git push -u origin main	------------------------- Enter
+Enumerating objects: 16, done.
+Counting objects: 100% (16/16), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (16/16), 11.72 MiB | 401.00 KiB/s, done.
+Total 16 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Amitmakode/image.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\admin\Downloads\webimagescrapper>
+
+
+
+
+
+Refresh github repo to see code in git 
+some time user Id and passwprd will be needed during uploading file
